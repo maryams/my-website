@@ -1,19 +1,45 @@
-body {
-    background-color: #b0c4de;
-}
 header{
   height:450px;
   background: #ccc;
 }
+
 .logo{
   size:50px;
   background:#999;
 }
+
 nav a{
   display: inline-block;
   margin-left:20px;
   font-weight:700;
-  text-transform: lowercase;
+  text-transform: uppercase;
   font-size: 14px;
   color:rgba(0,0,0,0.7);
+}
+
+a:hover{
+  color:rgba(0,0,0,1);
+}
+
+h1{
+  font-size:70px;
+  font-weight: 700px;
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+h1 span{
+  display:inline-block;
+  padding:0.2em 0.5em;
+  border:white solid 10px;
+}
+.kicker{
+  text-align:center;
+  font-weight:700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em
+  color:white;
+
 }
