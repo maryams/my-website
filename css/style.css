@@ -1,6 +1,7 @@
 header{
   height:450px;
-  background: #ccc;
+  background:url(../img/ax.jpg); center center
+  background-size: cover;
 }
 
 .logo{
@@ -51,3 +52,39 @@ h1 span{
   letter-spacing: 0.05em
   line-height:1px;
 }
+
+footer{
+    height:300px;
+  background:url(../img/ax.jpg); center center
+  background-size: cover;
+}
+
+.lockup{
+  padding:50px 30px;
+  clear: both;
+}
+  
+.logo1{
+  size:50px;
+  float:left;
+  margin-right:30px;
+}
+
+.content-wrap{
+  float:left;
+  margin-left:10px;
+}
+
+.copyright{
+  margin:20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color:rgba(0,0,0,0,0.4);
+}
+
+h3{
+  font-size:10px bold;
+  color: #e1c184;
+  text-align: center;
+}
+
