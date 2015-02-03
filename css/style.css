@@ -54,7 +54,7 @@ h1 span{
 }
 
 footer{
-    height:300px;
+  height:300px;
   background:url(../img/ax.jpg); center center
   background-size: cover;
 }
@@ -90,5 +90,30 @@ h3{
 
 .face-lockup{
   max-width: 780px;
+  display:flex;
+  margin:0 auto;
+  align-items:center;
+  justify-content:space-around;
 }
 
+.face-img{
+  height:187px;
+  width:135px;
+  background:url(../img/face.jpg); 
+  order:3;
+}
+.icon-pencil{
+  order:1;
+}
+
+.icon-mouse{
+  order:2;
+}
+
+.icon-browser{
+  order:4;
+}
+
+.icon-video{
+  order:5;
+}
