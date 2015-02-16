@@ -101,50 +101,58 @@ h3{
   margin:0 auto;
   align-items:center;
   justify-content:space-around;
+
 }
 
-.face-img{
-  height:187px;
-  width:135px;
+.face-lockup .face-img{
+  border-radius: 50px;
+  background-size: cover
+  background-position:center;
   background:url(../img/face.jpg); 
   order:3;
-  display:block;
-  background-position: center center;
-  background-repeat: no-repeat;
-  margin-bottom: 30px;
+  height:187px;
+  width:135px;
 }
 
 .icon-pencil{
   order:1;
   background-color:#e5eaee;
   border-radius: 50%;
-  display: inline-block;
   margin: 10px
+  size:100px;
 }
 
 .icon-mouse{
   order:2;
   background-color:#e5eaee;
   border-radius: 50%;
-  display: inline-block;
-  margin-top: 10px
+  margin: 10px
+  size:100px;
+
 }
 
 .icon-browser{
   order:4;
   background-color:#e5eaee;
   border-radius: 50%;
-  display: inline-block;
   margin: 10px
+  size:100px;
+
 }
 
 .icon-video{
   order:5;
   background-color:#e5eaee;
   border-radius: 50%;
-  display: inline-block;
   margin: 10px
+  size:100px;
+
 }
+
+.face-lockup div{
+  display:inline-block;
+}
+
 
 .blurb{
   max-width: 620px;
