@@ -97,7 +97,7 @@ h3{
 }
 
 .face-lockup{
-  max-width: 780px;
+  max-width: 600px;
   display:flex;
   margin:0 auto;
   align-items:center;
@@ -174,9 +174,52 @@ h3{
   font-size: 20px
 }
 
-.skill-icons span{
-display:inline-block;
-size:14px;
-background-color: $bgcolor
+.skill-icons{
+  font-size:0;
+  margin:0px 0 30px;
 }
 
+span {
+  display:inline-block;
+  size:14px;
+  background-color: #e1c184
+  margin-right:5px;
+  border-radius: 50%
+}
+
+&:after{
+  content: ''
+  display:block;
+  size:10px;
+  background-color: white;
+  border-radius: 50%
+  margin:2px
+}
+
+&skill-8 span: nth-child(n+9){
+  background:#e1c184;
+}
+
+.alt-section{
+  background: $bgcolor;
+}
+
+.thumb-container{
+  max-width: 960px;
+  margin:0px auto;
+  padding-bottom: 100px
+  clear: both;
+}
+
+.thumb-unit{
+  width:25%;
+  height:150px;
+  background-color: pink;
+  display:block;
+  float:left;
+  background-image:url(../img/work/Proj-1/macbook.jpg);
+  background-position:center center;
+  background-repeat: no-repeat;
+  size:cover;
+  
+}
