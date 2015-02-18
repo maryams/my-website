@@ -208,18 +208,28 @@ span {
   max-width: 960px;
   margin:0px auto;
   padding-bottom: 100px
-  clear: both;
 }
 
 .thumb-unit{
   width:25%;
-  height:150px;
-  background-color: pink;
   display:block;
   float:left;
   background-image:url(../img/work/Proj-1/macbook.jpg);
   background-position:center center;
   background-repeat: no-repeat;
   size:cover;
-  
+  position:relative;
+  padding-top: 20%;
+  opacity: 0.5;
+  overflow: hidden
+
 }
+.thumb-unit:hover{
+opacity: 1.0;
+}
+
+.thumb-overlay{
+  position:absolute(100%,0px,null,0px);
+  height:100%;
+}
+
